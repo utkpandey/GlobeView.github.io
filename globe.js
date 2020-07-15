@@ -71,7 +71,7 @@ require(["esri/Map", "esri/views/SceneView", "esri/views/MapView",
       //   distance +
       //   " miles.</div>";
   //    top.window.location.href ='//localhost:8080/p/redirect';
-       var str = top.window.location.pathname;
+      top.window.location.pathname = '/p/reload'
       console.log(str)
 //       var str = top.window.location.href;
 //   var n = str.includes("http://localhost:8080");
