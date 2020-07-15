@@ -70,7 +70,9 @@ require(["esri/Map", "esri/views/SceneView", "esri/views/MapView",
       //   "<div style='background-color:DarkGray;color:white'>" +
       //   distance +
       //   " miles.</div>";
-      top.window.location.href ='//localhost:8080/p/redirect';
+  //    top.window.location.href ='//localhost:8080/p/redirect';
+       var str = top.window.location.pathname;
+      console.log(str)
 //       var str = top.window.location.href;
 //   var n = str.includes("http://localhost:8080");
 //   if(n){
