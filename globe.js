@@ -70,16 +70,16 @@ require(["esri/Map", "esri/views/SceneView", "esri/views/MapView",
       //   "<div style='background-color:DarkGray;color:white'>" +
       //   distance +
       //   " miles.</div>";
-      //top.window.location.href ='/p/redirect';
-      var str = top.window.location.href;
-  var n = str.includes("http://localhost:8080");
-  if(n){
-    top.window.location.href = '//localhost:8080/p/redirect'
-  }
-  else{
-    top.window.location.href = '//deldev1-connectedfactoryms-deldev1.eu1.mindsphere.io/p/redirect'
-    console.log('other link here')
-  }
+      top.window.location.href ='/p/redirect';
+//       var str = top.window.location.href;
+//   var n = str.includes("http://localhost:8080");
+//   if(n){
+//     top.window.location.href = '//localhost:8080/p/redirect'
+//   }
+//   else{
+//     top.window.location.href = '//deldev1-connectedfactoryms-deldev1.eu1.mindsphere.io/p/redirect'
+//     console.log('other link here')
+//   }
     }
 
      // Event handler that fires each time an action is clicked.
